@@ -1,4 +1,4 @@
 package lk.HostelManagementSystem.dao.custom.impl;
 
-public class ReservationDAOImpl {
+public class RegistrationDAOImpl {
 }

@@ -1,4 +1,4 @@
 package lk.HostelManagementSystem.bo.custom.impl;
 
-public class ReservationBOImpl {
+public class RegistrationBOImpl {
 }

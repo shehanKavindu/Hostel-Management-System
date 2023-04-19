@@ -1,4 +1,4 @@
 package lk.HostelManagementSystem.dao.custom;
 
-public interface ReservationDAO {
+public interface RegistrationDAO {
 }
