@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="482.0" prefWidth="896.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.HostelManagementSystem.Controller.PayementFormController">
+   <children>
+      <AnchorPane prefHeight="482.0" prefWidth="896.0">
+         <children>
+            <ImageView fitHeight="499.0" fitWidth="902.0" layoutY="-12.0">
+               <image>
+                  <Image url="@../assest/images%20(5).jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

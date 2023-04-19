@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="482.0" prefWidth="896.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.HostelManagementSystem.Controller.StudentManagementFormController">
+   <children>
+      <ImageView fitHeight="482.0" fitWidth="896.0" layoutX="-1.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="490.0" fitWidth="896.0" layoutY="-1.0">
+         <image>
+            <Image url="@../assest/download%20(2).jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="275.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student Management Form" wrappingWidth="362.13671875">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="45.0" fitWidth="54.0" layoutX="205.0" layoutY="14.0">
+         <image>
+            <Image url="@../assest/Student%20png.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="49.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student ID" wrappingWidth="87.39999389648438">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="49.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student Name" wrappingWidth="105.80001831054688">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtStudentID" layoutX="149.0" layoutY="84.0" prefHeight="26.0" prefWidth="183.0" />
+      <TextField fx:id="txtStudentName" layoutX="149.0" layoutY="129.0" prefHeight="26.0" prefWidth="183.0" />
+      <Text layoutX="377.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Birth Day" wrappingWidth="99.39996337890625">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="49.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gender" wrappingWidth="54.0">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtGender" layoutX="149.0" layoutY="180.0" prefHeight="26.0" prefWidth="183.0" />
+      <TextField fx:id="txtAddress" layoutX="485.0" layoutY="129.0" prefHeight="26.0" prefWidth="183.0" />
+      <Text layoutX="377.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address" wrappingWidth="99.39996337890625">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtBirthDay" layoutX="485.0" layoutY="84.0" prefHeight="26.0" prefWidth="183.0" />
+      <TableView layoutX="46.0" layoutY="240.0" prefHeight="200.0" prefWidth="607.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Studen ID" />
+          <TableColumn prefWidth="153.6000213623047" text="Student Name" />
+            <TableColumn prefWidth="102.39996337890625" text="Gender" />
+            <TableColumn prefWidth="144.0" text="Birth Day" />
+            <TableColumn prefWidth="112.0" text="Address" />
+        </columns>
+      </TableView>
+      <Button layoutX="719.0" layoutY="245.0" mnemonicParsing="false" onAction="#btnSearchOnAction" prefHeight="31.0" prefWidth="106.0" style="-fx-background-color: green;" text="Search">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="719.0" layoutY="292.0" mnemonicParsing="false" onAction="#btnAddOnAction" prefHeight="31.0" prefWidth="106.0" style="-fx-background-color: yellow;" text="Add">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="719.0" layoutY="348.0" mnemonicParsing="false" onAction="#btnUpdateOnAction" prefHeight="31.0" prefWidth="106.0" style="-fx-background-color: white;" text="Update">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="719.0" layoutY="400.0" mnemonicParsing="false" onAction="#bntDeleteOnAction" prefHeight="31.0" prefWidth="106.0" style="-fx-background-color: red;" text="Delete">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
