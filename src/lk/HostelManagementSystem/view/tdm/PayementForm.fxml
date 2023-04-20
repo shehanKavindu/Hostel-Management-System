@@ -1,20 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.image.Image?>
-<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-
-<AnchorPane prefHeight="482.0" prefWidth="896.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.HostelManagementSystem.Controller.PayementFormController">
+<AnchorPane prefHeight="482.0" prefWidth="896.0" style="-fx-background-color: #80ced6;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.HostelManagementSystem.Controller.PayementFormController">
    <children>
-      <AnchorPane prefHeight="482.0" prefWidth="896.0">
-         <children>
-            <ImageView fitHeight="499.0" fitWidth="902.0" layoutY="-12.0">
-               <image>
-                  <Image url="@../assest/images%20(5).jpg" />
-               </image>
-            </ImageView>
-         </children>
-      </AnchorPane>
+      <Text layoutX="284.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="payement Form" wrappingWidth="258.13671875">
+         <font>
+            <Font name="System Bold" size="34.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtSearchStudentNameOrId" layoutX="278.0" layoutY="81.0" prefHeight="33.0" prefWidth="282.0" />
+      <Label layoutX="69.0" layoutY="84.0" prefHeight="22.0" prefWidth="194.0" text="Search Student Name or Id">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <TableView layoutX="42.0" layoutY="137.0" prefHeight="316.0" prefWidth="811.0">
+        <columns>
+          <TableColumn fx:id="colId" prefWidth="75.0" text="Id" />
+          <TableColumn fx:id="colName" prefWidth="114.39996337890625" text="Name" />
+            <TableColumn fx:id="colAddress" prefWidth="135.20001220703125" text="Address" />
+            <TableColumn fx:id="colContact" prefWidth="181.60003662109375" text="Contact" />
+            <TableColumn fx:id="colDateOfBirth" prefWidth="181.60003662109375" text="Date of Birth" />
+            <TableColumn fx:id="colGender" prefWidth="119.2000732421875" text="Gender" />
+        </columns>
+      </TableView>
    </children>
 </AnchorPane>
