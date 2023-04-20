@@ -1,4 +1,4 @@
 package lk.HostelManagementSystem.bo;
 
-public interface SuperBo {
+public interface SuperBO {
 }
