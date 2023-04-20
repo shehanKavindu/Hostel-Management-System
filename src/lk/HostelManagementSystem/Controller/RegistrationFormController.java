@@ -1,4 +1,4 @@
 package lk.HostelManagementSystem.Controller;
 
-public class RegisterFormController {
+public class RegistrationFormController {
 }
