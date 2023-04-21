@@ -1,4 +1,4 @@
 package lk.HostelManagementSystem.bo.custom;
 
-public interface RegisterBO {
+public interface ReservationrBO {
 }
