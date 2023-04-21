@@ -1,4 +1,7 @@
 package lk.HostelManagementSystem.bo.custom;
 
-public interface UserBO {
+
+import lk.HostelManagementSystem.bo.SupperBO;
+
+public interface UserBO extends SupperBO {
 }
