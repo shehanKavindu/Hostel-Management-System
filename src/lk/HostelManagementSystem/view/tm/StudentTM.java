@@ -172,7 +172,7 @@ import java.time.LocalDate;
             result = result * 59 + ($dob == null ? 43 : $dob.hashCode());
             Object $gender = this.getGender();
             result = result * 59 + ($gender == null ? 43 : $gender.hashCode());
-            return result
+            return result;
         }
 
         public String toString() {
