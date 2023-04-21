@@ -1,4 +1,8 @@
 package lk.HostelManagementSystem.bo.custom.impl;
 
-public class UserBOImpl {
+import lk.HostelManagementSystem.bo.custom.UserBO;
+
+public class UserBOImpl implements UserBO {
+    public UserBOImpl() {
+    }
 }
