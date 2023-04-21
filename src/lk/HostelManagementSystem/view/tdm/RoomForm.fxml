@@ -52,11 +52,11 @@
             <TextField fx:id="txtRoomQTY" layoutX="566.0" layoutY="176.0" prefHeight="26.0" prefWidth="165.0" />
             <TableView layoutX="166.0" layoutY="256.0" prefHeight="200.0" prefWidth="501.0">
               <columns>
-                <TableColumn prefWidth="93.59997177124023" text="Room Type ID" />
-                <TableColumn prefWidth="115.20001220703125" text="Room Type" />
+                <TableColumn fx:id="colRoomTypeID" prefWidth="93.59997177124023" text="Room Type ID" />
+                <TableColumn fx:id="colRoomType" prefWidth="115.20001220703125" text="Room Type" />
                   <TableColumn minWidth="0.0" prefWidth="0.0" text="C2" />
-                  <TableColumn prefWidth="144.00001525878906" text="Key Money" />
-                  <TableColumn prefWidth="144.00001525878906" text="Room QTY" />
+                  <TableColumn fx:id="colKeyMoney" prefWidth="144.00001525878906" text="Key Money" />
+                  <TableColumn fx:id="colRoomQTY" prefWidth="144.00001525878906" text="Room QTY" />
               </columns>
             </TableView>
             <Button layoutX="744.0" layoutY="256.0" mnemonicParsing="false" onAction="#btnSearchOnAction" prefHeight="26.0" prefWidth="92.0" style="-fx-background-color: green;" text="Search">
