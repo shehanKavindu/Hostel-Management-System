@@ -11,16 +11,10 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
 <AnchorPane prefHeight="490.0" prefWidth="886.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.HostelManagementSystem.Controller.RoomFormController">
    <children>
-      <AnchorPane prefHeight="490.0" prefWidth="884.0">
+      <AnchorPane prefHeight="490.0" prefWidth="886.0" style="-fx-background-color: #80ced6;">
          <children>
-            <ImageView fitHeight="492.0" fitWidth="896.0" layoutX="-4.0" layoutY="-2.0">
-               <image>
-                  <Image url="@../assest/download%20(2).jpg" />
-               </image>
-            </ImageView>
             <Text layoutX="350.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Room Form" wrappingWidth="165.4617462158203">
                <font>
                   <Font name="System Bold" size="28.0" />

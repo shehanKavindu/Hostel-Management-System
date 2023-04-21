@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="lk.HostelManagementSystem.Controller.SettingFormController"
-            prefHeight="400.0" prefWidth="600.0">
 
+<AnchorPane prefHeight="482.0" prefWidth="896.0" style="-fx-background-color: #80ced6;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.HostelManagementSystem.Controller.SettingFormController">
+   <children>
+      <Text layoutX="333.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Setting Form" wrappingWidth="201.3367919921875">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Text>
+   </children>
 </AnchorPane>
