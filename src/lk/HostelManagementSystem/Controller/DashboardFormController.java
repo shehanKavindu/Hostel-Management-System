@@ -5,22 +5,22 @@ import javafx.event.ActionEvent;
 import java.io.IOException;
 
 public class DashboardFormController {
-    public void btnStudentOnAction(ActionEvent actionEvent)throws IOException {
-        Navigation.navigation(Routes.MANAGE_STUDENTS,home)
+    
+    public void btnStudentsOnAction(ActionEvent actionEvent) {
     }
 
-    public void btnRoomOnAction(ActionEvent actionEvent) {
+    public void btnRegisterOnAction(ActionEvent actionEvent) {
     }
 
-    public void btnReservationOnAction(ActionEvent actionEvent) {
+    public void btnRoomsOnAction(ActionEvent actionEvent) {
     }
 
-    public void btnReservationDetailOnAction(ActionEvent actionEvent) {
+    public void btnPayement(ActionEvent actionEvent) {
     }
 
-    public void btnPayementOnAction(ActionEvent actionEvent) {
+    public void btnSetting(ActionEvent actionEvent) {
     }
 
-    public void bntLogOutOnAction(ActionEvent actionEvent) {
+    public void btnLogOut(ActionEvent actionEvent) {
     }
 }
