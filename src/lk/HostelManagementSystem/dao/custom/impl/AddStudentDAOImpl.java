@@ -1,6 +1,6 @@
-package lk.HostelManagementSystem.DAO.custom.impl;
+package lk.HostelManagementSystem.dao.custom.impl;
 
-import lk.HostelManagementSystem.DAO.custom.UserDAO;
+import lk.HostelManagementSystem.dao.custom.UserDAO;
 
 public class AddStudentDAOImpl {
 import lk.HostelManagementSystem.dao.custom.UserDAO;
