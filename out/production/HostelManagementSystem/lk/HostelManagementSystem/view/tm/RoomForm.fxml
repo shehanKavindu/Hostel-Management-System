@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="490.0" prefWidth="886.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.HostelManagementSystem.Controller.RoomFormController">
+   <children>
+      <AnchorPane prefHeight="490.0" prefWidth="886.0" style="-fx-background-color: #80ced6;">
+         <children>
+            <Text layoutX="350.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Room Form" wrappingWidth="165.4617462158203">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="45.0" fitWidth="54.0" layoutX="260.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="45.0" fitWidth="54.0" layoutX="278.0" layoutY="10.0">
+               <image>
+                  <Image url="@../assest/R.oom.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="51.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Room Type ID" wrappingWidth="115.06172180175781">
+               <font>
+                  <Font name="System Bold Italic" size="16.0" />
+               </font>
+            </Text>
+            <ComboBox layoutX="195.0" layoutY="105.0" onAction="#cmbRoomTypeIDOnAction" prefHeight="26.0" prefWidth="165.0" />
+            <Text layoutX="51.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Room Type" wrappingWidth="91.86170959472656">
+               <font>
+                  <Font name="System Bold Italic" size="16.0" />
+               </font>
+            </Text>
+            <TextField fx:id="txtRoomType" layoutX="195.0" layoutY="176.0" prefHeight="26.0" prefWidth="165.0" />
+            <Text layoutX="417.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Key Money" wrappingWidth="105.46174621582031">
+               <font>
+                  <Font name="System Bold Italic" size="16.0" />
+               </font>
+            </Text>
+            <TextField fx:id="txtKeyMoney" layoutX="566.0" layoutY="104.0" prefHeight="26.0" prefWidth="165.0" />
+            <Text layoutX="417.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Room QTY" wrappingWidth="91.86170959472656">
+               <font>
+                  <Font name="System Bold Italic" size="16.0" />
+               </font>
+            </Text>
+            <TextField fx:id="txtRoomQTY" layoutX="566.0" layoutY="176.0" prefHeight="26.0" prefWidth="165.0" />
+            <TableView layoutX="166.0" layoutY="256.0" prefHeight="200.0" prefWidth="501.0">
+              <columns>
+                <TableColumn fx:id="colRoomTypeID" prefWidth="93.59997177124023" text="Room Type ID" />
+                <TableColumn fx:id="colRoomType" prefWidth="115.20001220703125" text="Room Type" />
+                  <TableColumn minWidth="0.0" prefWidth="0.0" text="C2" />
+                  <TableColumn fx:id="colKeyMoney" prefWidth="144.00001525878906" text="Key Money" />
+                  <TableColumn fx:id="colRoomQTY" prefWidth="144.00001525878906" text="Room QTY" />
+              </columns>
+            </TableView>
+            <Button layoutX="744.0" layoutY="256.0" mnemonicParsing="false" onAction="#btnSearchOnAction" prefHeight="26.0" prefWidth="92.0" style="-fx-background-color: green;" text="Search">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="744.0" layoutY="306.0" mnemonicParsing="false" onAction="#btnAddOnAction" prefHeight="26.0" prefWidth="92.0" style="-fx-background-color: yellow;" text="Add">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="744.0" layoutY="356.0" mnemonicParsing="false" onAction="#btUpdateOnAction" prefHeight="26.0" prefWidth="92.0" style="-fx-background-color: white;" text="Update">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="744.0" layoutY="405.0" mnemonicParsing="false" onAction="#btnDeleteOnAction" prefHeight="26.0" prefWidth="92.0" style="-fx-background-color: red;" text="Delete">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
