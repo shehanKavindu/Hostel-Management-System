@@ -1,10 +1,11 @@
 package lk.HostelManagementSystem.dao.custom.impl;
 
+import lk.HostelManagementSystem.dao.custom.RoomDAO;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class RoomDAOImpl {
-    ublic class RoomDAOImpl implements RoomDAO {
+    public class RoomDAOImpl implements RoomDAO {
         public RoomDAOImpl() {
         }
 

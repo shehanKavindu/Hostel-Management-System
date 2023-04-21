@@ -1,4 +1,4 @@
 package lk.HostelManagementSystem.util;
 
-public class ValidationType {
+public enum ValidationType {
 }

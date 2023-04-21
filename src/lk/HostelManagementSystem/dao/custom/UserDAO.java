@@ -1,4 +1,10 @@
 package lk.HostelManagementSystem.dao.custom;
 
-public interface UserDAO {
-}
+import lk.HostelManagementSystem.entity.User;
+
+
+    public interface UserDAO extends SQLUtil<User> {
+        User get(String var1);
+    }
+
+

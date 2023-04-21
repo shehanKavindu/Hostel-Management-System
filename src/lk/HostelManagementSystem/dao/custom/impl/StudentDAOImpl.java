@@ -3,7 +3,6 @@ package lk.HostelManagementSystem.dao.custom.impl;
 import java.util.ArrayList;
 import java.util.List;
 
-public class StudentDAOImpl {
     public class StudentDAOImpl implements StudentDAO {
         public StudentDAOImpl() {
         }

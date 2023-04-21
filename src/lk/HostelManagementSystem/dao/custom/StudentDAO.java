@@ -1,4 +1,11 @@
 package lk.HostelManagementSystem.dao.custom;
 
-public interface StudentDAO {
-}
+import lk.HostelManagementSystem.entity.Student;
+
+import java.util.ArrayList;
+
+    public interface StudentDAO extends SQLUtil<Student> {
+        ArrayList<Student> getAllStudent();
+    }
+
+

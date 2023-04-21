@@ -1,4 +1,6 @@
-package lk.HostelManagementSystem.bo.custom;public class BOType {
+package lk.HostelManagementSystem.bo.custom;
+
+public enum BOType {
     public enum BOType {
         USER,
         ROOM,
@@ -7,8 +9,10 @@ package lk.HostelManagementSystem.bo.custom;public class BOType {
         ADDUSER,
         SETTING,
         LOGIN,
-        PAYEMENT;
+        PAYMENt_DETAILS;
 
         private BOType() {
         }
     }
+
+}
