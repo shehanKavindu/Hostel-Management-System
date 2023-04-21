@@ -14,4 +14,7 @@ public class RoomFormController {
 
     public void btnDeleteOnAction(ActionEvent actionEvent) {
     }
+
+    public void cmbRoomTypeIDOnAction(ActionEvent actionEvent) {
+    }
 }
