@@ -1,4 +1,4 @@
 package lk.HostelManagementSystem.bo.custom;
 
-public interface AddStudentBO {
+public interface AddUserBO extends StudentBO {
 }
