@@ -8,7 +8,7 @@ import java.time.LocalDate;
         private String address;
         private String contact_no;
         private LocalDate dob;
-        private String gender;
+        private String gender
 
         public StudentTM() {
         }
