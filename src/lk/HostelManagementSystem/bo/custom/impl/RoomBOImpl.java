@@ -2,12 +2,20 @@ package lk.HostelManagementSystem.bo.custom.impl;
 
 
 import lk.HostelManagementSystem.bo.custom.RoomBO;
+import lk.HostelManagementSystem.dao.DAOFactory;
+import lk.HostelManagementSystem.dao.custom.DAOType;
+import lk.HostelManagementSystem.dao.custom.RoomDAO;
+import lk.HostelManagementSystem.dto.RoomDTO;
+import lk.HostelManagementSystem.entity.Room;
+
+import java.util.ArrayList;
+import java.util.Iterator;
 
 public class RoomBOImpl implements RoomBO {
     private RoomDAO roomDAO;
 
     public RoomBOImpl() {
-        this.roomDAO = (RoomDAO)DAOFactory.getInstance().getDAOType(DAOType.ROOM);
+        this.roomDAO = (RoomDAO) DAOFactory.getInstance().getDAOType(DAOType.ROOM);
     }
 
     public boolean saveRoom(RoomDTO dto) {
