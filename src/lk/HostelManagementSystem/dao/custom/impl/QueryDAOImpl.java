@@ -1,8 +1,5 @@
 package lk.HostelManagementSystem.dao.custom.impl;
 
-import lk.HostelManagementSystem.dao.custom.QueryDAO;
-import lk.HostelManagementSystem.entity.CustomEntity;
-
 import javax.management.Query;
 import java.time.LocalDate;
 import java.util.ArrayList;

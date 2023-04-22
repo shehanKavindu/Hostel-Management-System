@@ -2,6 +2,8 @@ package lk.HostelManagementSystem.bo.custom.impl;
 
 
 import java.util.ArrayList;
+
+import lk.HostelManagementSystem.bo.custom.AddUserBO;
 import lk.ijse.hostel_management_system.bo.custom.AddUserBO;
 import lk.ijse.hostel_management_system.dao.DAOFactory;
 import lk.ijse.hostel_management_system.dao.DAOType;
