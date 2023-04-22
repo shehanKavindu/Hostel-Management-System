@@ -4,7 +4,7 @@ package lk.HostelManagementSystem.dao;
 import lk.HostelManagementSystem.dao.custom.DAOType;
 import lk.HostelManagementSystem.dao.custom.impl.*;
 
-public class DAOFactory
+public class DAOFactory{
         private static DAOFactory daoFactory;
 
         private DAOFactory() {
