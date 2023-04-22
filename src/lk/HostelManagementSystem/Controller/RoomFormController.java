@@ -18,3 +18,4 @@ public class RoomFormController {
     public void cmbRoomTypeIDOnAction(ActionEvent actionEvent) {
     }
 }
+}
