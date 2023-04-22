@@ -4,27 +4,26 @@ package lk.HostelManagementSystem.bo.custom.impl;
 // (powered by FernFlower decompiler)
 //
 
+import lk.HostelManagementSystem.bo.custom.ReservationrBO;
+import lk.HostelManagementSystem.dao.DAOFactory;
+import lk.HostelManagementSystem.dao.custom.DAOType;
+import lk.HostelManagementSystem.dao.custom.RoomDAO;
+import lk.HostelManagementSystem.dao.custom.StudentDAO;
+import lk.HostelManagementSystem.dto.ReservationDTO;
+import lk.HostelManagementSystem.entity.Reservation;
+import lk.HostelManagementSystem.entity.Room;
+import lk.HostelManagementSystem.entity.Student;
+
 import java.util.ArrayList;
 import java.util.Iterator;
-import lk.ijse.hostel_management_system.bo.custom.ReservationBO;
-import lk.ijse.hostel_management_system.dao.DAOFactory;
-import lk.ijse.hostel_management_system.dao.DAOType;
-import lk.ijse.hostel_management_system.dao.custom.ReservationDAO;
-import lk.ijse.hostel_management_system.dao.custom.RoomDAO;
-import lk.ijse.hostel_management_system.dao.custom.StudentDAO;
-import lk.ijse.hostel_management_system.dto.ReservationDTO;
-import lk.ijse.hostel_management_system.dto.RoomDTO;
-import lk.ijse.hostel_management_system.entity.Reservation;
-import lk.ijse.hostel_management_system.entity.Room;
-import lk.ijse.hostel_management_system.entity.Student;
 
-public class ReservationBOImpl implements ReservationBO {
+public class ReservationBOImpl implements ReservationrBO {
     private final RoomDAO roomDAO;
     private final ReservationDAO reservationDAO;
     private final StudentDAO studentDAO;
 
     public ReservationBOImpl() {
-        this.roomDAO = (RoomDAO)DAOFactory.getInstance().getDAOType(DAOType.ROOM);
+        this.roomDAO = (RoomDAO) DAOFactory.getInstance().getDAOType(DAOType.ROOM);
         this.reservationDAO = (ReservationDAO)DAOFactory.getInstance().getDAOType(DAOType.RESERVATION);
         this.studentDAO = (StudentDAO)DAOFactory.getInstance().getDAOType(DAOType.STUDENT);
     }

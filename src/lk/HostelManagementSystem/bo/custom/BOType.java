@@ -9,7 +9,7 @@ public enum BOType {
         ADDUSER,
         SETTING,
         LOGIN,
-        PAYMENt_DETAILS;
+        PAYEMENT;
 
         private BOType() {
         }
